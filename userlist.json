@@ -1,0 +1,24 @@
+{
+  "users": [
+    {
+      "username": "vagrant",
+      "primary_group": "vagrant",
+      "secondary_groups": ["users", "admins", "sudoers"]
+    },
+	{
+      "username": "user1",
+      "primary_group": "testers",
+      "secondary_groups": ["users"]
+    },
+	{
+      "username": "user2",
+      "primary_group": "developers",
+      "secondary_groups": ["users", "myusers"]
+    },
+	{
+	   "username": "user3",
+      "primary_group": "users",
+      "secondary_groups": ["users", "myusers"]
+	}
+  ]
+}
